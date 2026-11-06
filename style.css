@@ -1,0 +1,275 @@
+
+/* General page styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b1120;
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+
+header {
+    background-color: #111c32;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #3b82f6;
+    font-size: 28px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3b82f6;
+}
+
+/* Home Section */
+
+#home {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 8%;
+    background-color: #0b1120;
+}
+
+#home div {
+    max-width: 750px;
+}
+
+#home p:first-child {
+    color: #3b82f6;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#home h1 {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#home h2 {
+    font-size: 24px;
+    color: #93c5fd;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 17px;
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+#home a {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#home a:hover {
+    background-color: #1d4ed8;
+}
+
+/* About Section */
+
+#about {
+    padding: 80px 8%;
+    background-color: #111c32;
+}
+
+#about h2 {
+    font-size: 35px;
+    color: #3b82f6;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    color: #cbd5e1;
+    max-width: 850px;
+    margin-bottom: 15px;
+}
+
+#about h3 {
+    color: white;
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#about ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#about ul li {
+    background-color: #1e3a5f;
+    color: #93c5fd;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+
+#work {
+    padding: 80px 8%;
+    background-color: #0b1120;
+}
+
+#work h2 {
+    color: #3b82f6;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+#work table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #111c32;
+}
+
+#work th {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+#work td {
+    color: #cbd5e1;
+    padding: 15px;
+    border-bottom: 1px solid #334155;
+}
+
+#work tr:hover {
+    background-color: #1e293b;
+}
+
+/* Resume Section */
+
+#resume {
+    padding: 80px 8%;
+    background-color: #111c32;
+}
+
+#resume h2 {
+    color: #3b82f6;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#resume h3 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#resume p {
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
+
+#resume a {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#resume audio {
+    width: 100%;
+    max-width: 400px;
+}
+
+
+/* Contact Section */
+
+#contact {
+    padding: 80px 8%;
+    background-color: #0b1120;
+}
+
+#contact h2 {
+    color: #3b82f6;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+#contact form {
+    max-width: 600px;
+}
+
+#contact label {
+    display: block;
+    color: white;
+    margin-bottom: 8px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #111c32;
+    color: white;
+    border: 1px solid #334155;
+    border-radius: 5px;
+    outline: none;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #3b82f6;
+}
+
+#contact button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #1d4ed8;
+}
